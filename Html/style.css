@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+.texto{
+    color: white;
+    text-align-last: left;
+}
+
+td{
+    border: 1px solid white;
+}
