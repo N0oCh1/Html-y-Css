@@ -19,26 +19,19 @@ h1{
 
 .texto{
     color: white;
-    
-    padding: 5px;
+    padding-top: 10px;
+}
+.linea{
+    border-top: solid white 1px;
 }
 
 td{
     border: 1px solid white;
 }
 
-.sobreMi{
-    position: absolute;
-    left: 300px;
-    padding: 0px;
-}
-#article{
-    position: relative;
-    top: 20px;
-    margin-bottom: 50px;
-}
-.texto_imagen{
-    min-width: auto;
+img{
+    float: left;
+    margin-right: 5px;
 }
 
 #article .sobreMi.texto p {
@@ -46,5 +39,11 @@ td{
 }
 #article .sobreMi h1 {
     text-align: center;
+    padding-bottom: 5px;
+}
+
+#article{
+    border: solid white 2px;
+    overflow: auto;
     padding-bottom: 5px;
 }
