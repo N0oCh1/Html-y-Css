@@ -1,12 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background-color: black;
+    background-color: rgb(29, 29, 29);
+    font: 20px Tahoma, Geneva, Verdana ;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.hastag{
+    color: rgb(255, 200, 0);
+}
+
+h1{
+    font: 700 40px Tahoma, Geneva, Verdana center;
 }
 
 .texto{
     color: white;
-    text-align-last: left;
+    
+    padding: 5px;
 }
 
 td{
     border: 1px solid white;
+}
+
+.sobreMi{
+    position: absolute;
+    left: 300px;
+    padding: 0px;
+}
+#article{
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+}
+.texto_imagen{
+    min-width: auto;
+}
+
+#article .sobreMi.texto p {
+    text-align: justify;
+}
+#article .sobreMi h1 {
+    text-align: center;
+    padding-bottom: 5px;
 }
