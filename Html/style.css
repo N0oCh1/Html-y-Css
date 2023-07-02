@@ -33,6 +33,7 @@ img{
     float: left;
     margin-right: 5px;
 }
+.im
 
 #article .sobreMi.texto p {
     text-align: justify;
@@ -46,4 +47,9 @@ img{
     border: solid white 2px;
     overflow: auto;
     padding-bottom: 5px;
+}
+
+#two{
+    background-color: gray;
+    height: 100px;
 }
