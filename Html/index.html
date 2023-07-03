@@ -7,45 +7,76 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/14fe392b41.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!--bloque  de inicio-->
-        <div class="texto">
-            <h1>Ruben feng</h1>
-            <p class="hastag"> #programador </p>
-            <p class="hastag"> #disenador </p>
-            <p class="texto linea">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique porro ducimus ut at animi ab. Molestiae vero sapiente laborum laboriosam aliquid vitae! Placeat officia tempore mollitia cum ad aliquam possimus.</p>
-        </div>
-        <div id="article">
-            <div class="sobreMi texto">
-                <h1>Sobre mi</h1>
-                <p><img src="Element/Image/Gato-siames.jpg" alt="gato siames acostado" width= 300>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat repudiandae eius voluptatibus. Laborum, provident blanditiis in error, porro accusantium beatae earum omnis facilis incidunt praesentium? Repellendus vel expedita corrupti et.</p>
+        <nav>
+            <i class="fa-solid fa-cat icon"></i>
+            <div id="menu">
+                <ul>
+                    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                    <li><a href="#gatos">Gatos</a></li>
+                    <li><a href="#aboutme">Sobre mi</a></li>
+                    <li><a href="">Otros</a></li>
+                </ul>
             </div>
+        </nav>
+        <div id="container">
+           <header>
+                <ul id="socialmedia">
+                    <li><a href="https://www.facebook.com/ruben.feng.5/" target="_blank"><i class="fa-brands fa-square-facebook on"></i></a></li>
+                    <li><a href="https://www.instagram.com/n0och1/" target="_blank"><i class="fa-brands fa-square-instagram on"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-twitter on"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin on"></i></a></li>
+                </ul>
+            </header>
+            <article id="aboutme">
+                <div class="sobreMi">
+                    <img src="Element/Image/Gato-siames.jpg" alt="gato siames" class="gatoSiames">
+                    <h1 style="text-align: center;">
+                        Sobre mi
+                    </h1>
+                </div>
+                <section>
+                    <p style="text-align: justify; font-size: 20px; margin-top: 4px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quaerat nemo facilis eius laborum, 
+                        tempora quod suscipit. Dignissimos exercitationem, explicabo, dolore magnam voluptate molestiae cumque sapiente vel perspiciatis quia placeat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio maxime voluptatibus sint, ex excepturi error dolorem, 
+                    laborum neque rem ducimus quisquam aperiam obcaecati voluptatum commodi nemo eos. Velit, ex.
+                </p>
+                </section>
+            </article>
+            <div id="cat_flex">
+                <h1 style="text-align: center;">
+                    Mas gatos 
+                </h1>
+                <div id = "cats">
+                <section class="raza">
+                    <h3>
+                        Birmano
+                    </h3>
+                    <img src="https://www.purina.es/sites/default/files/styles/nppe_breed_selector_500/public/2021-02/CAT%20HERO_0003_Birman.jpg?itok=UH9R9Rqf" alt="" width="200">
+                    <p>El birmano es un gato de pelo semilargo de color más oscuro hacia las marcas distales, la cara, las patas, las orejas y la cola, y algo más claro en el resto del cuerpo. Es un gato relativamente grande, con un cuerpo rechoncho y de patas cortas. El birmano tiene los ojos azules y las cuatro zarpas de color blanco puro. Los «calcetines» delanteros cubren solo las falanges, pero los traseros son más largos. La cabeza es ancha y redonda, con orejas de tamaño medio. Los birmanos presentan muchos colores distintos.</p>
+                </section>
+                <section class="raza">
+                    <h3>
+                        Bobtail Japones
+                    </h3>
+                    <img src="https://www.purina.es/sites/default/files/styles/nppe_breed_selector_500/public/breed_library/cat_japanese_bobtail_short_hair.jpg?itok=UVNFBMiC" alt=""width="200">
+                    <p>El bobtail japonés tiene una forma elegante y una musculatura bien desarrollada. La cabeza está cincelada con delicadeza, tiene unas orejas grandes en posición vertical y unos grandes ojos redondos con una inclinación pronunciada.</p>
+                </section>
+                <section class="raza">
+                    <h3>
+                        Bombay
+                    </h3>
+                    <img src="https://www.purina.es/sites/default/files/styles/nppe_breed_selector_500/public/breed_library/cat_bombay.jpg?itok=nXVJdpKt" alt=""width="200">
+                    <p>El bombay es un gato de constitución media y un pelaje negro azabache muy brillante que parece charol. El cráneo es ligeramente redondeado, tiene las orejas redondeadas y un hocico ancho. Sus preciosos ojos de color cobre o dorado están bastante separados y son intensos y expresivos. El cuerpo es firme y musculoso, con un lomo recto y fuerte.</p>
+                </section>
+            </div>
+            </div>
+            
+            <footer>
+
+            </footer> 
         </div>
         
-         <div class="texto">
-            <table class="table_color">
-                <thead>
-                    <tr>
-                        <th colspan="4">ejemplo de portafolio</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>musica</td>
-                        <td>produccion</td>
-                        <td>web</td>
-                        <td>diseno</td>
-                    </tr>
-                    <tr>
-                        <td>HipHop</td>
-                        <td>BSDS</td>
-                        <td>App</td>
-                        <td>Carteles</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <!-- end image block-->
-        <script src="" async defer></script>
     </body>
