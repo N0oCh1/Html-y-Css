@@ -1,0 +1,149 @@
+/*element css*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, rgb(21, 89, 247) , rgb(255, 98, 0));
+}
+footer {
+    padding: 10px;
+    background-color: white;
+    height: max-content;
+}
+
+
+/*class and id css*/
+.icon{
+    font-size: 40px;
+    color: white;
+}
+
+#container{
+    position:static;
+    background-color: rgb(62, 62, 62);
+    margin: 0px 50px 0px 50px;
+    color: white;
+    padding: 10px;
+}
+
+.menu{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#socialmedia{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+}
+.on:hover{
+    color: rgb(86, 86, 86);
+}
+#socialmedia li{
+    margin-right: 20px;
+}
+
+a:any-link{
+    color: white;
+}
+
+#banner{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-image: url(https://www.digitalcitizen.life/wp-content/uploads/2021/02/amd_intel.png);
+}
+#indet{
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: gray;
+    width: max-content;
+}
+#introduction{
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+#indet ul li{
+    list-style-type: none;
+}
+#indet ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+#indet ul li a:hover {
+    text-decoration:underline;
+    color: orange;
+}
+.video{
+    padding-top: 20px;
+
+}
+.flex_intel{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+.flex_intel section {
+    border: 3PX solid skyblue;
+    width: 200px;
+    height: auto;
+    background-color:  white;
+    border-radius: 5px;
+    color: rgb(67, 66, 66);
+    padding: 8px;
+}
+.flex_amd{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+.flex_amd section {
+    border: 3px solid orange;
+    width: 200px;
+    height: auto;
+    background-color:  white;
+    border-radius: 5px;
+    color: rgb(67, 66, 66);
+    padding: 8px;
+}
+#home{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#home i{
+    font-size: 30px;
+    margin-top: 6px;
+    color: black;
+}
+#best_for_rendering{
+    margin-top: 50px;
+}
+
+.img1{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
