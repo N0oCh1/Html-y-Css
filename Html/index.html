@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- ALL CONTENT OF THIS HTML IS SPANISH-->
 <html lang="es">
     <head>
         <meta charset="utf-8">
@@ -8,21 +9,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/14fe392b41.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     </head>
     <body>
+<!--Menu-->
         <nav>
             <i class="fa-solid fa-cat icon"></i>
             <div id="menu">
                 <ul>
                     <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
-                    <li><a href="#cat_flex">Gatos</a></li>
                     <li><a href="#aboutme">Sobre mi</a></li>
+                    <li><a href="#cat_flex">Gatos</a></li>
                     <li><a href="#table">Otros</a></li>
+                    <li><a href="#contact_area">Contacto</a></li>
                 </ul>
             </div>
         </nav>
+<!--End menu section-->
+<!--PRINCIPAL CONTENT-->
         <div id="container">
+<!--social media button-->
            <header id="social_icon">
+
                 <ul id="socialmedia">
                     <li><a href="https://www.facebook.com/ruben.feng.5/" target="_blank"><i class="fa-brands fa-square-facebook on"></i></a></li>
                     <li><a href="https://www.instagram.com/n0och1/" target="_blank"><i class="fa-brands fa-square-instagram on"></i></a></li>
@@ -30,6 +40,7 @@
                     <li><a href=""><i class="fa-brands fa-linkedin on"></i></a></li>
                 </ul>
             </header>
+<!-- about me section-->
             <article id="aboutme">
                 <div class="sobreMi">
                     <img src="Element/Image/Gato-siames.jpg" alt="gato siames" class="gatoSiames">
@@ -45,6 +56,8 @@
                 </p>
                 </section>
             </article>
+<!--end of my about section-->
+<!--tell somthing cat info section-->
             <div id="cat_flex">
                 <h1 style="text-align: center;">
                     Mas gatos 
@@ -73,10 +86,13 @@
                 </section>
             </div>
             </div>
+<!--end of cat info section-->
+<!--Cursed cat section......-->
             <section id="table">
                 <h2 style="margin-top: 10px; text-align: center;">
                     Gatos extremadamente curseados con pepinillos
                 </h2>
+            <!--Grid cat cursered-->
                 <div id="grid_cat">
                     <section class="img_box">
                         <div><img src="https://img.wattpad.com/bb70bc429cd03ad10cfafad7eb5a487eb355e593/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f34464e355f5058616f787a6f74413d3d2d3739343732393539352e313563646236633565343661653163343532333335303237333737322e6a7067?s=fit&w=720&h=720" alt="cursed cat" class="elemen_grid"></div>
@@ -117,7 +133,39 @@
                 </div>
                 <p style="margin-top: 10px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos dolorem voluptatum, amet at laborum harum? Vero adipisci repellendus voluptas, sunt tempore ipsam provident est saepe. Consequuntur quam illo est a!</p>
             </section>
-            
+<!-- end of Cursed cat section......-->
+<!-- video 100 curiosities-->            
+            <div id="video">
+                <p><iframe src="https://www.youtube.com/embed/MN4DQ_Vd0nE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+            </div>
+<!--Contact area section-->
+            <div id="contact_area">
+                <div>
+                    <h1>Contacto</h1>
+                </div>
+                <form action="#">
+                    <div class="itemform">
+                        <label for="nameArea">Nombre</label>
+                        <input type="text" id="nameArea" name="nameArea" minlength="2" maxlength="30" size="14" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="bissnes">Empresa</label>
+                        <input type="text" id="bissnes" name="bissnes" minlength="2" maxlength="100" size="14">
+                    </div>
+                    <div class="itemform">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" minlength="2" maxlength="30" size="14" required>
+                    </div>
+                    <div class="itemform">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="60" rows="8"></textarea>
+                    </div>
+                    <div class="itemform">
+                        <input type="submit" name="Enviar" id="Enviar" value="CONTACTAR">
+                    </div>
+                </form>
+            </div>
+<!--end of Contact area section-->
             <footer style="margin-top: 30px; background-color: gray; width: auto;">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, vitae aliquam quaerat ipsam distinctio unde, ipsum quos ipsa quo delectus pariatur, sequi aspernatur aut obcaecati quis nostrum! Dolor, reprehenderit atque.
             </footer> 
